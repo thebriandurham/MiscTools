@@ -16,3 +16,6 @@ Useful for PCAP analysis to determine validity of SQLi security events
 To use:
 	Create your SQL reserved words CSV file depending on your version of SQL
 	Update the file path variable in this script
+	
+# opt_enum.py
+Quick and dirty allowed HTTP verbs enumerator, takes a file of urls (1 per line) and runs OPTIONS against each. Could use a help message and input validation, but it works so....
