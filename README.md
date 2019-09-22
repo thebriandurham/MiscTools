@@ -19,3 +19,6 @@ To use:
 	
 # opt_enum.py
 Quick and dirty allowed HTTP verbs enumerator, takes a file of urls (1 per line) and runs OPTIONS against each. Could use a help message and input validation, but it works so....
+
+# htb_init.py
+Simple script to create working directories when starting a new machine on HTB, just provide the name of the machine when running the script , e.g. 'python htb_init.py ellingson'  Saves approx 30 seconds of creating directories manually! 
