@@ -1,6 +1,9 @@
 # MiscTools
 Various tools I've made to make life easier
 
+# paratrooper.sh
+Handy network enumeration script. Stores output of ifconfig, ip route, iwlist wlan0 scanning, and netstat -lanp to a zip, then uses scp to copy this data back to a listening host. Designed to be placed on a raspberry pi dropper running Kali that has the script on a crontab, so that when you drop it on a network, it'll run the script every X minutes and get the data back to you for your use and remoting back into it :).
+
 # flask_page_generator.py
 Script to easily insert pages into a flask environment.
 To use:
