@@ -15,4 +15,3 @@ zip /opt/airborn/recon.zip /opt/airborn/ifconfig.txt /opt/airborn/iproute.txt /o
 
 rm /opt/airborn/*.txt
 rm /opt/airborn/*.zip
-touch /opt/airborn/done
