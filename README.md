@@ -25,3 +25,6 @@ Quick and dirty allowed HTTP verbs enumerator, takes a file of urls (1 per line)
 
 ## htb_init.py
 Simple script to create working directories when starting a new machine on HTB, just provide the name of the machine when running the script , e.g. 'python htb_init.py ellingson'  Saves approx 30 seconds of creating directories manually! 
+
+## offset_string_builder.py
+Easily generate UTC offset strings in Python. Couldn't find a simpler / prebuilt solution elsewhere, so I made this (possibly very redundant if my Google-fu was just weak)
